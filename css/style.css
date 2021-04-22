@@ -229,6 +229,18 @@ a:hover {
   font-size: 16px;
 }
 
+.como-varigold-funciona .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.como-varigold-funciona .img-container img {
+  max-height: 205px;
+  width: 100%;
+}
+
 /***** ANVISA *******/
 .anvisa {
   background-color: #2a2a2a;
@@ -266,31 +278,6 @@ a:hover {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-}
-
-/******* VIDEOS *********/
-.como-funciona {
-  padding: 0rem 0 2rem;
-}
-
-.como-funciona h2 {
-  font-size: 22px;
-  color: #f9b133;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.como-funciona ul {
-  list-style: none;
-  font-size: 16px;
-  line-height:30px;
-  margin: 0;
-}
-
-.como-funciona ul li i {
-  margin-right: 10px;
-  font-size: 20px;
 }
 
 /**** EBOOKS ****/
@@ -505,6 +492,10 @@ a:hover {
 @media (max-width: 768px) {
   .botao-whats {
     width: 15%;
+  }
+
+  .como-varigold-funciona .img-container {
+    height: auto;
   }
 }
 
